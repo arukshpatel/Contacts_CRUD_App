@@ -22,9 +22,12 @@ To sum it up, <b>PLEASE LIMIT THE AMOUNT OF CONTACTS YOU SUBMIT. <br> i.e <code>
 ---
 
 ### Install
-This project has been split into two subdirectories client and server. 
-- `/client` = Frontend
-- `/server` = Backend
+This project has been split into two subdirectories client and server.
+- i.e:
+  - `/client` = Frontend
+  - `/server` = Backend
+
+
 
 1. Clone [this](https://github.com/arukshpatel/Contacts_CRUD_App.git) repo
 2. `cd`(navigate in terminal) into the cloned directory
@@ -33,7 +36,7 @@ This project has been split into two subdirectories client and server.
 5. `cd` (navigate in terminal) into the `\source` directory
 6. run `npm install` 
 7. Ensuring all the packages have downloaded, now is the time to boot the server and run the front-end.
-8. To start server:
+8. To start backend server:
     - `cd` (navigate in terminal) into `\server`
     - run `npm run start` in terminal. It _should_ start on [localhost:8000](http://localhost:8000).<br>If successful, terminal should print: <br> _"Server started on port 8000. Visit http://localhost:8000 for more info"_
       - **TIP**: I highly recommend going to [localhost:8000](http://localhost:8000) to ensure server is working.
