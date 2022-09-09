@@ -15,7 +15,7 @@ I am using the FREE tier of MongoDB (Mongo Atlas), so I have limited storage.
 Because I have included my API key within the server file.<br>
 <b>YES I know!!</b> That is one of THE dumbest things I can do, however, this project was only developed to be seen by Recruiters at AllTech, I suppose. 
 
-The best approach would be to place my keys in <code>.env</code> file, but that defeats the purpose of having a project that'd be ready to use if and when the recruiters see this.
+The best approach would be to place my keys in <code>.env</code> file, but that defeats the purpose of having a project that'd be ready to use, if and when the recruiters see this.
 
 To sum it up, <b>PLEASE LIMIT THE AMOUNT OF CONTACTS YOU SUBMIT. <br> i.e <code><i>n <= 100</i></code></b> n = num. of contacts
 
