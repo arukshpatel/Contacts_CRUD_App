@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>API Home Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body { padding-top: 50px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="jumbotron">
+        <div>
+            <h1>SERVER IS WORKING! WOOHOO!!! 🥳</h1>
+            <hr>
+            <p>Since you've made it this far, I'll give you a tip: <strong>You don't HAVE to start the Frontend server to use the app.</strong></p>
+            <p><strong>If you go to <a href="/app">/app</a>, you can access the Phonebook project right away.</strong></p>
+            <p>I built the React app and added to this server directory. Its a very VERY rudimentary method, but hey, it works! 🙂</p>
+            <hr>
+            <h4>Available CRUD API Methods: </h4>
+            <h5>[Method] - [path to API call] &rarr; [Info]</h5>
+            <p>GET - <a href="/">/ &emsp; [this page]</a> </p>
+            <p>GET - <a href="/app">/app &emsp; [Phone Book App]</a> &rarr; There are more methods associated with this app (i.e. JS, CSS, and manifest) but they are unnecessary to mention.</p>
+            <p>GET - <a href="/api/allContacts">/api/allContacts</a> &rarr; Retrieves all contacts from Database</p>
+            <p>POST - <a href='/api/addContact'>/api/addContact</a> &rarr; Allows you to add a contact to Database and returns the added contact with ID</p>
+            <p>PUT - <a href="/api/updateContact">/api/updateContact</a> &rarr; Allows you to update a contact from Database given an ID of the contact</p>
+            <p>DELETE - <a href='/api/delete/contact'>/api/delete/contact</a> &rarr; Allows you to delete a contact from Database given an ID of the contact</p>
+
+        </div>
+    </div>
+</div>
+
+</body>
